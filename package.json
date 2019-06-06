@@ -1,0 +1,38 @@
+{
+  "name": "okta-node-cli-example",
+  "version": "0.1.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "eslint": "eslint --fix src/*.js bin/*.js",
+    "pkce-login": "node bin/pkceLogin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oktadeveloper/okta-node-cli-example.git"
+  },
+  "keywords": [],
+  "author": "David Neal <david@reverentgeek.com> (https://reverentgeek.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oktadeveloper/okta-node-cli-example/issues"
+  },
+  "homepage": "https://github.com/oktadeveloper/okta-node-cli-example#readme",
+  "bin": {
+    "hello": "./bin/index.js",
+    "pkce-login": "./bin/pkceLogin.js"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^18.3.1",
+    "axios": "^0.19.0",
+    "boxen": "^4.0.0",
+    "chalk": "^2.4.2",
+    "dotenv": "^8.0.0",
+    "open": "^6.3.0",
+    "uuid": "^3.3.2",
+    "yargs": "^13.2.4"
+  }
+}
