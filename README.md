@@ -13,7 +13,7 @@ To successfully run this project you will need to:
 1. Clone or download the source code.
 1. Run `npm install` from the command line in the project folder.
 1. Copy `.env.sample` to `.env`
-1. Install the Okta CLI and run `okta register` to sign up for a new account. Use `okta login` if you already have an account.
+1. Install the [Okta CLI](https://cli.okta.com) and run `okta register` to sign up for a new account. Use `okta login` if you already have an account.
 1. Run `okta apps create`. Select the default app name, or change it as you see fit. Choose **Native** and use `http://localhost:8080/callback` for the Redirect URI. Set the Logout Redirect URI to `http://localhost:8080`.
 1. Update `.env` with your **Issuer** and application's **Client ID**
 1. Install the CLI app globally using `npm install -g .`
